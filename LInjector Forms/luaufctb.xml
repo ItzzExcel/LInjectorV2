@@ -1,0 +1,42 @@
+<Language Name="Luau" LineEndChars="">
+  <Keywords1>
+    and break do else elseif end false for function if in local nil not or repeat return then true until while
+  </Keywords1>
+  <Keywords2>
+    abs acos asin atan atan2 ceil clamp cos deg exp floor fmod frexp huge ldexp log log10 max min mod
+    noise pow rad random randomseed sin sqrt tan
+  </Keywords2>
+  <Keywords3>
+    Axes BrickColor CFrame Color3 ColorSequence ColorSequenceKeypoint ConeHandleAdornment
+    CylinderHandleAdornment Faces Instance MeshPart MotorFeature NameAndValue Node OutflowBoundaryPlugin
+    ParticleEmitter PartEmitter PhysicalProperties Random RandomSequence Ray RBXScriptConnection
+    RBXScriptSignal Rect ResizeHandleAdornment RodConstraint SelectionBox SelectionSphere SurfaceAdornment
+    Torque Motor Tween TweenInfo UDim UDim2 Vector2 Vector3 Weld WeldConstraint
+  </Keywords3>
+  <Span End=")" RuleSet="String"/>
+  <Span Start="--" End="$" RuleSet="Comment"/>
+  <RuleSet>
+    <DelimiterPair Open="{[" Close="]}" Token="Operator"/>
+    <DelimiterPair Open="--[[{" Close="}]]" Token="Comment"/>
+    <RegexPattern Regex="([a-zA-Z_][a-zA-Z0-9_]*)" Token="Identifier"/>
+    <Keywords Token="Keyword1"/>
+    <Keywords2 Token="Keyword2"/>
+    <Keywords3 Token="Keyword3"/>
+    <KeyChar>=</KeyChar>
+    <KeyChar>+</KeyChar>
+    <KeyChar>-</KeyChar>
+    <KeyChar>*</KeyChar>
+    <KeyChar>/</KeyChar>
+    <KeyChar>%</KeyChar>
+    <KeyChar>^</KeyChar>
+    <KeyChar>#</KeyChar>
+    <KeyChar>.</KeyChar>
+    <KeyChar>,</KeyChar>
+    <KeyChar>(</KeyChar>
+    <KeyChar>)</KeyChar>
+    <KeyChar>{</KeyChar>
+    <KeyChar>}</KeyChar>
+    <KeyChar>[</KeyChar>
+    <KeyChar>]</KeyChar>
+  </RuleSet>
+</Language>
