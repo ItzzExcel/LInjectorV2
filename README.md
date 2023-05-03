@@ -6,9 +6,9 @@
 </a>
 </p>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/98148217/235284537-1ce43689-df5c-47ac-8387-598343ccb7e2.png">
+  <img src="https://user-images.githubusercontent.com/98148217/236020704-b931f1b0-3c4b-4bd3-95fb-f0c22e40a093.png">
 </p>
-<h3 align="center">A Light Injector for your Roblox Script</h3>
+<h3 align="center">A Light Injector for your Roblox Scripts</h3>
 
 ### Windows Forms release.
 
@@ -21,8 +21,6 @@
 - First, clone this repo `gh repo clone ItzzExcel/LInjector`.
 - Next, open it with Visual Studio (From Windows 10/11).
 - Compile the solution / project. **WITH C++17 SELECTED IN THE PROJECT**
-- Move `/libs folder to /LInjector/x64/Debug/..` (The folder must include the `bin/TaaprWareV3.dll` file) 
-- Your _scripts_ folder must not contain _space_ strings. I mean; NOT: '_C:\Users\noobmaster69\My Scripts_'. YES: '_C:\Users\noobmaster69\MyScripts_'.
 
 ### Disclaimer
 This project uses The KRNL Exploit API.
